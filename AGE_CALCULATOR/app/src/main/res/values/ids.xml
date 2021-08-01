@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="selectedDate" type="id" />
+    <item name="selecedYears" type="id" />
+    <item name="convertYears" type="id" />
+    <item name="day" type="id" />
+    <item name="convertDay" type="id" />
+    <item name="selecedhours" type="id" />
+    <item name="convertHour" type="id" />
+    <item name="selecedMunites" type="id" />
+    <item name="convertMunites" type="id" />
+    <item name="selecedSeconds" type="id" />
+    <item name="convertSeconds" type="id" />
+    <item name="pselectedDate" type="id" />
+</resources>

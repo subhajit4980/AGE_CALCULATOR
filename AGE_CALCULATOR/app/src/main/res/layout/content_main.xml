@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="15dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="303dp"
+        android:layout_height="175dp"
+        android:paddingTop="23sp"
+        android:paddingBottom="4sp"
+        android:src="@drawable/font"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:padding="7sp"
+        android:text="Select Date of birth"
+        android:textColor="#929292"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        tools:ignore="HardcodedText,MissingConstraints" />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:text="DATE OF BIRTH"
+        android:textColor="#7E000B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/pselectedDate"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@id/pselectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7sp"
+        android:textColor="#1C2450"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnDatePicker"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@id/selecedYears"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:text="IN YEARS &amp; MONTHS &amp; DAYS"
+        android:textColor="#7E000B"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/pselectedDate"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@id/convertYears"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000E5A"
+        android:textSize="15sp"
+        android:background="#00040FDD"
+        android:textStyle="italic"
+        app:layout_constraintTop_toBottomOf="@id/selecedYears"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@id/day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="TOTAL DAYS"
+        android:textColor="#7E000B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/convertYears"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@id/convertDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1C2450"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintTop_toBottomOf="@id/day"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@id/selecedhours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="TOTAL HOURS"
+        android:textColor="#7E000B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/convertDay"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@id/convertHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1C2450"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintTop_toBottomOf="@id/selecedhours"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@id/selecedMunites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOTAL MINUTES"
+        android:textColor="#7E000B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/convertHour"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@id/convertMunites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1C2450"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintTop_toBottomOf="@id/selecedMunites"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@id/selecedSeconds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOTAL SECONDS"
+        android:textColor="#7E000B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/convertMunites"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@id/convertSeconds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1C2450"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/selecedSeconds"
+        tools:ignore="HardcodedText,SpUsage" />
+
+
+
+
+
+</LinearLayout>
