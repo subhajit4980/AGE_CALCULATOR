@@ -8,8 +8,11 @@
 - Your age in total hours.
 - Your age in total minutes.
 - Your age in total seconds.
-
-#[APP's LINK📲](https://drive.google.com/file/d/1xOxBtfVQwgWGgLEHoNHKlvOASIXuFWmR/view?usp=sharing) 👈`Download`
+## Tools:
+` Android Studio`
+## Languages Used:
+ `Kotlin` `Xml`
+#`[APP's LINK📲]`(https://drive.google.com/file/d/1xOxBtfVQwgWGgLEHoNHKlvOASIXuFWmR/view?usp=sharing) 👈`Download`
 
 ### some screenshot:
 <img src="https://github.com/subhajit4980/AGE_CALCULATOR/blob/main/AGE_CALCULATOR/screenshot/Screenshot_2021-08-02-00-26-35-652_com.dobcalculator.jpg" width="200" />  <img src="https://github.com/subhajit4980/AGE_CALCULATOR/blob/main/AGE_CALCULATOR/screenshot/Screenshot_2021-08-02-00-26-53-227_com.dobcalculator.jpg" width="200" /> <img src="https://github.com/subhajit4980/AGE_CALCULATOR/blob/main/AGE_CALCULATOR/screenshot/Screenshot_2021-08-02-00-27-04-766_com.dobcalculator.jpg" width="200" />
