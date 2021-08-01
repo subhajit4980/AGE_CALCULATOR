@@ -10,4 +10,4 @@
 - Your age in total seconds.
 
 ### some screenshot:
-<img src="https://github.com/subhajit4980/AGE_CALCULATOR/blob/main/AGE_CALCULATOR/screenshot/Screenshot_2021-08-02-00-26-35-652_com.dobcalculator.jpg" width="200" height="400"/>  <img src="https://github.com/subhajit4980/AGE_CALCULATOR/blob/main/AGE_CALCULATOR/screenshot/Screenshot_2021-08-02-00-26-53-227_com.dobcalculator.jpg" width="200" height="400"/> <img src="https://github.com/subhajit4980/AGE_CALCULATOR/blob/main/AGE_CALCULATOR/screenshot/Screenshot_2021-08-02-00-27-04-766_com.dobcalculator.jpg" width="200" heigth="400"/>
+<img src="https://github.com/subhajit4980/AGE_CALCULATOR/blob/main/AGE_CALCULATOR/screenshot/Screenshot_2021-08-02-00-26-35-652_com.dobcalculator.jpg" width="200" />  <img src="https://github.com/subhajit4980/AGE_CALCULATOR/blob/main/AGE_CALCULATOR/screenshot/Screenshot_2021-08-02-00-26-53-227_com.dobcalculator.jpg" width="200" /> <img src="https://github.com/subhajit4980/AGE_CALCULATOR/blob/main/AGE_CALCULATOR/screenshot/Screenshot_2021-08-02-00-27-04-766_com.dobcalculator.jpg" width="200" />
